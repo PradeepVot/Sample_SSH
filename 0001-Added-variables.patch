@@ -1,0 +1,23 @@
+From 40af3f3024cc83ed65d1d4954582b6409542c19f Mon Sep 17 00:00:00 2001
+From: Pradeep <pradeep.voolla@votarytech.com>
+Date: Wed, 16 Aug 2017 17:56:07 +0530
+Subject: [PATCH] Added variables
+
+---
+ main_prog.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/main_prog.c b/main_prog.c
+index 55af11c..9204305 100644
+--- a/main_prog.c
++++ b/main_prog.c
+@@ -1,5 +1,5 @@
+ #include<stdio.h>
+ int main(void)
+ {
+-
++	int val1,val2;
+ }
+-- 
+2.7.4
+

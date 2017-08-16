@@ -1,0 +1,23 @@
+From 9238afb62ae1e1cff679e20f6380f3c0c8fb214d Mon Sep 17 00:00:00 2001
+From: Pradeep <pradeep.voolla@votarytech.com>
+Date: Wed, 16 Aug 2017 18:05:45 +0530
+Subject: [PATCH] variable initialized and printed in sub_branch
+
+---
+ main_prog.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/main_prog.c b/main_prog.c
+index 9204305..54a6c2d 100644
+--- a/main_prog.c
++++ b/main_prog.c
+@@ -2,4 +2,6 @@
+ int main(void)
+ {
+ 	int val1,val2;
++	val1=5,val2=10;
++	printf("Val1 is %d Val2 is %d\n",val1,val2);
+ }
+-- 
+2.7.4
+
